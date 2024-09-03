@@ -151,11 +151,11 @@ section.formação{
 
 /* ESTILO PORTFOLIO */
 
-section.portfolio{
+section.Portfólio{
     padding: 40px 4%;
 }
 
-section.portflio .flex{
+section.Portfólio .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
