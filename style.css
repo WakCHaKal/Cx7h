@@ -88,13 +88,6 @@ header .btn-contato button:hover{
 
 /* Redimencionando IMG TOPO DO SITE */
 
-.img-topo-site{
-    width: 100px;
-    height: auto;
-    /* Para manter a proporção e evitar distorções, use: */
-    /* width: 300px; height: auto; */
-}
-
 
 
 /* Redimencionando o LOGO */
