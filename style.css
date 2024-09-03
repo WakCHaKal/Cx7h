@@ -1,0 +1,220 @@
+/* Estilo Geral */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color:#ac7c5d;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+button:hover, form .btn-enviar input[type=submit]:hover{
+    box-shadow: 0px 0px 8px #3d3d3cad;
+    transform: scale(1.2);
+}
+
+h2.titulo{
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.titulo span{
+    color: #7e3906;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Estilo Cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:black;
+    transform: scale(1.4);
+}
+
+header nav ul{
+    list-style-type: none; /*pra excluir as bolinhas da lista */
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#7e3906;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #7e3806;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* Redimencionando IMG TOPO DO SITE */
+
+.img-topo-site{
+    width: 100px;
+    height: auto;
+    /* Para manter a proporção e evitar distorções, use: */
+    /* width: 300px; height: auto; */
+}
+
+
+
+/* Redimencionando o LOGO */
+.LogoPrincipal {
+    width: 300px;
+    height: 300px;
+    /* Para manter a proporção e evitar distorções, use: */
+    /* width: 300px; height: auto; */
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* ESTILO SOBRE */
+
+section.Sobre{
+    padding: 40px 4%;
+}
+
+section.Sobre .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.Sobre .txt-sobre-site h1 span{
+    color: #7e3906;
+    font-size: 42px;
+}
+
+
+.Sobre .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* ESTILO FORMAÇÂO */
+section.formação{
+    padding: 40px 4%;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+/* ESTILO PORTFOLIO */
+
+section.portfolio{
+    padding: 40px 4%;
+}
+
+section.portflio .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Estilo Formulário do Contato */
+section.formulario{
+    padding: 80px 4%;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #3d3d3cad;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: #7e3806;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+/* ----------------------------------------------------------------------------- */
